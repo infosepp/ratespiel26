@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mensch
+comment0.text=\r\n\ Die\ Klasse\ {@code\ Mensch}\ repr\u00E4sentiert\ einen\ menschlichen\ Spieler.\r\n\ <p>\r\n\ Die\ geratene\ Zahl\ soll\ durch\ eine\ Benutzereingabe\ bestimmt\ werden,\r\n\ z.\ B.\ \u00FCber\ die\ Konsole.\r\n\r\n\ @author\ ---\r\n
+comment1.params=
+comment1.target=int\ raten()
+comment1.text=\r\n\ Fordert\ den\ menschlichen\ Spieler\ auf,\ eine\ Zahl\ zu\ raten.\r\n\r\n\ @return\ die\ vom\ Benutzer\ eingegebene\ Zahl\r\n\ @author\ Ole\r\n
+numComments=2

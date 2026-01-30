@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Spieler
+comment0.text=\r\n\ Die\ abstrakte\ Klasse\ {@code\ Spieler}\ stellt\ einen\ allgemeinen\ Spieler\ dar.\r\n\ <p>\r\n\ Sie\ dient\ als\ Oberklasse\ f\u00FCr\ konkrete\ Spielerarten\ wie\r\n\ {@link\ Mensch}\ und\ {@link\ Computer}.\r\n\r\n\ @author\ ---\r\n
+comment1.params=
+comment1.target=int\ raten()
+comment1.text=\r\n\ Liefert\ eine\ Zahl,\ die\ der\ Spieler\ r\u00E4t.\r\n\ <p>\r\n\ Die\ konkrete\ Implementierung\ h\u00E4ngt\ vom\ jeweiligen\ Spielertyp\ ab.\r\n\r\n\ @return\ die\ vom\ Spieler\ geratene\ Zahl\r\n\ @author\ ---\r\n
+numComments=2

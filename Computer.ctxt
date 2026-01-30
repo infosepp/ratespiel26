@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Computer
+comment0.text=\r\n\ Die\ Klasse\ {@code\ Computer}\ repr\u00E4sentiert\ einen\ Computer-Spieler.\r\n\ <p>\r\n\ Der\ Computer\ soll\ selbstst\u00E4ndig\ eine\ Zahl\ raten,\r\n\ z.\ B.\ mithilfe\ eines\ Zufallsgenerators.\r\n\r\n\ @author\ ---\r\n
+comment1.params=
+comment1.target=int\ raten()
+comment1.text=\r\n\ Erzeugt\ eine\ vom\ Computer\ geratene\ Zahl.\r\n\r\n\ @return\ die\ vom\ Computer\ erzeugte\ Zahl\r\n\ @author\ Phil\r\n
+numComments=2

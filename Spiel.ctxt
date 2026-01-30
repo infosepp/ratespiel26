@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Spiel
+comment0.text=\r\n\ Die\ Klasse\ {@code\ Spiel}\ steuert\ den\ kompletten\ Ablauf\ des\ Spiels.\r\n\ <p>\r\n\ Sie\ verwaltet\ die\ beiden\ Spieler,\ deren\ Punktest\u00E4nde\ sowie\ den\r\n\ aktuell\ aktiven\ Spieler.\ Au\u00DFerdem\ koordiniert\ sie\ den\ Start\r\n\ und\ den\ Ablauf\ einzelner\ Spielrunden.\r\n\r\n\ @author\ ---\r\n
+comment1.params=
+comment1.target=void\ starteSpiel()
+comment1.text=\r\n\ Startet\ ein\ neues\ Spiel.\r\n\ <p>\r\n\ In\ dieser\ Methode\ sollen\:\r\n\ <ul>\r\n\ \ \ <li>die\ beiden\ Spieler\ initialisiert\ werden</li>\r\n\ \ \ <li>die\ Punktest\u00E4nde\ auf\ 0\ gesetzt\ werden</li>\r\n\ \ \ <li>der\ Startspieler\ bestimmt\ werden</li>\r\n\ \ \ <li>mehrere\ Spielrunden\ durchgef\u00FChrt\ werden</li>\r\n\ </ul>\r\n\r\n\ @author\ Lennart\r\n
+comment2.params=
+comment2.target=int\ gibPunkteSpieler1()
+comment2.text=\r\n\ Liefert\ den\ aktuellen\ Punktestand\ von\ Spieler\ 1.\r\n\r\n\ @return\ Punktestand\ von\ Spieler\ 1\r\n\ @author\ Bianca\r\n
+comment3.params=
+comment3.target=int\ gibPunkteSpieler2()
+comment3.text=\r\n\ Liefert\ den\ aktuellen\ Punktestand\ von\ Spieler\ 2.\r\n\r\n\ @return\ Punktestand\ von\ Spieler\ 2\r\n\ @author\ Finia\r\n
+comment4.params=
+comment4.target=void\ starteRunde()
+comment4.text=\r\n\ F\u00FChrt\ eine\ einzelne\ Spielrunde\ durch.\r\n\ <p>\r\n\ Dabei\ soll\:\r\n\ <ul>\r\n\ \ \ <li>eine\ Zufallszahl\ erzeugt\ werden</li>\r\n\ \ \ <li>der\ aktuelle\ Spieler\ eine\ Zahl\ raten</li>\r\n\ \ \ <li>die\ geratenen\ und\ die\ Zufallszahl\ verglichen\ werden</li>\r\n\ \ \ <li>der\ Punktestand\ ggf.\ erh\u00F6ht\ werden</li>\r\n\ </ul>\r\n\r\n\ @author\ Emil\r\n
+comment5.params=
+comment5.target=void\ wechsleSpieler()
+comment5.text=\r\n\ Wechselt\ den\ aktuell\ aktiven\ Spieler.\r\n\ <p>\r\n\ Ist\ momentan\ Spieler\ 1\ aktiv,\ wird\ zu\ Spieler\ 2\ gewechselt\r\n\ und\ umgekehrt.\r\n\r\n\ @author\ Mika\r\n
+comment6.params=
+comment6.target=int\ gibZufallszahl()
+comment6.text=\r\n\ Erzeugt\ eine\ Zufallszahl\ f\u00FCr\ das\ Ratespiel.\r\n\ <p>\r\n\ Der\ genaue\ Zahlenbereich\ (z.\ B.\ 1\ bis\ 10)\ soll\ im\ Rahmen\r\n\ des\ Spiels\ festgelegt\ werden.\r\n\r\n\ @return\ zuf\u00E4llig\ erzeugte\ Zahl\r\n\ @author\ Janne\r\n
+comment7.params=
+comment7.target=void\ bestimmeStartspieler()
+comment7.text=\r\n\ Bestimmt\ zuf\u00E4llig,\ welcher\ Spieler\ das\ Spiel\ beginnt.\r\n\ <p>\r\n\ Der\ bestimmte\ Spieler\ wird\ als\ aktueller\ Spieler\ gespeichert.\r\n\r\n\ @author\ Elias\r\n
+numComments=8
