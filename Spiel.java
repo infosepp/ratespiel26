@@ -48,7 +48,7 @@ public class Spiel {
      * @author Bianca
      */
     public int gibPunkteSpieler1() {
-        return 0;
+        return punkteSpieler1;
     }
 
     /**
