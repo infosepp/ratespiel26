@@ -60,7 +60,7 @@ public class Spiel {
      * @author Finia
      */
     public int gibPunkteSpieler2() {
-        return 0;
+        return punkteSpieler2;
     }
 
     /**
@@ -101,7 +101,11 @@ public class Spiel {
      * @author Mika
      */
     public void wechsleSpieler() {
-        // zu implementieren
+        if(aktSpieler == spieler1){
+            aktSpieler = spieler2;
+        } else {
+            aktSpieler = spieler1; 
+        }
     }
 
     /**
@@ -114,7 +118,9 @@ public class Spiel {
      * @author Janne
      */
     public int gibZufallszahl() {
-        return 0;
+        Random r = new Random();
+        return r.Int(1000);
+        
     }
 
     /**

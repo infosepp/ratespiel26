@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * Die Klasse {@code Mensch} repräsentiert einen menschlichen Spieler.
  * <p>
@@ -16,6 +17,7 @@ class Mensch extends Spieler {
      */
     @Override
     public int raten() {
-        return 0;
+        System.out.print("Bitte gib eine Zahl ein: ");
+        return new java.util.Scanner(System.in).nextInt();
     }
 }
