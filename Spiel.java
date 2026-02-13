@@ -39,6 +39,12 @@ public class Spiel {
      */
     public void starteSpiel() {
         // zu implementieren
+        spieler1 = new Mensch();
+        spieler2 = new Mensch();
+        punkteSpieler1 = 0;
+        punkteSpieler2 = 0;
+        bestimmeStartspieler();
+        starteRunde();
     }
 
     /**
