@@ -4,7 +4,7 @@
  * Sie dient als Oberklasse für konkrete Spielerarten wie
  * {@link Mensch} und {@link Computer}.
  *
- * @author ---
+ * @author Henning Ainödhofer
  */
 abstract class Spieler {
 
