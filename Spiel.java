@@ -121,7 +121,7 @@ public class Spiel {
      */
     public int gibZufallszahl() {
         Random r = new Random();
-        return r.Int(1000);
+        return r.nextInt(1000);
         
     }
 
