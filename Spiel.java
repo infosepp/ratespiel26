@@ -111,6 +111,14 @@ public class Spiel {
      * @author Elias
      */
     public void bestimmeStartspieler() {
-        // zu implementieren
+        int zufall = (int) (Math.random()*2);
+        if (zufall == 0)
+        {
+            aktSpieler = spieler1;
+            
+        }
+        else {
+            aktSpieler = spieler2;
+        }
     }
 }
