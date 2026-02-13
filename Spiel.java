@@ -45,7 +45,7 @@ public class Spiel {
      * Liefert den aktuellen Punktestand von Spieler 1.
      *
      * @return Punktestand von Spieler 1
-     * @author Bianca
+     * @author Henning Ainödhofer
      */
     public int gibPunkteSpieler1() {
         return punkteSpieler1;
