@@ -86,10 +86,6 @@ public class Spiel {
         if (aktSpielerGerateneZahl == zufallszahl){
            System.out.println("Spieler 1 hat gewonnen") ;
         }
-        
-            
-        
-    
     }
 
     /**
