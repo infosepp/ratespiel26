@@ -58,7 +58,7 @@ public class Spiel {
      * @author Finia
      */
     public int gibPunkteSpieler2() {
-        return 0;
+        return punkteSpieler2;
     }
 
     /**
