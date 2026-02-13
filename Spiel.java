@@ -1,3 +1,5 @@
+import java.util.Random;
+import java.util.Scanner;
 /**
  * Die Klasse {@code Spiel} steuert den kompletten Ablauf des Spiels.
  * <p>
@@ -81,7 +83,15 @@ public class Spiel {
      * @author Emil
      */
     public void starteRunde() {
-        // zu implementieren
+        Random r = new Random();
+        Scanner s = new Scanner(System.in);
+        int zufallszahl = r.nextInt(1000)+1;
+        System.out.println("Zufallszahl erzeuget");
+        System.out.println("Spieler 1 ist mit Raten dran! Rate ein Zahl zwischen 1 und 1000");
+        int aktSpielerGerateneZahl = s.nextInt();
+        if (aktSpielerGerateneZahl == zufallszahl){
+           System.out.println("Spieler 1 hat gewonnen") ;
+        }
     }
 
     /**
@@ -123,6 +133,14 @@ public class Spiel {
      * @author Elias
      */
     public void bestimmeStartspieler() {
-        // zu implementieren
+        int zufall = (int) (Math.random()*2);
+        if (zufall == 0)
+        {
+            aktSpieler = spieler1;
+            
+        }
+        else {
+            aktSpieler = spieler2;
+        }
     }
 }
