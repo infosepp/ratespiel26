@@ -87,7 +87,11 @@ public class Spiel {
      * @author Mika
      */
     public void wechsleSpieler() {
-        // zu implementieren
+        if(aktSpieler == spieler1){
+            aktSpieler = spieler2;
+        } else {
+            aktSpieler = spieler1; 
+        }
     }
 
     /**
