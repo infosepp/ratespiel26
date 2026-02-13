@@ -7,7 +7,7 @@
  *
  * @author ---
  */
-public class Spiel {
+public class Spiel extends Spiel {
 
     /** Punktestand von Spieler 1 */
     private int punkteSpieler1;
