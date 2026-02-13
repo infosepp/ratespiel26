@@ -104,7 +104,9 @@ public class Spiel {
      * @author Janne
      */
     public int gibZufallszahl() {
-        return 0;
+        Random r = new Random();
+        return r.Int(1000);
+        
     }
 
     /**
